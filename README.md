@@ -21,3 +21,9 @@ This repository contains an interactive application developed in **Streamlit** f
 - **Pandas** (Data processing, filtering, and consolidation)
 - **Plotly Express** (Dynamic and interactive graphs)
 - **Openpyxl** (Excel file reading engine)
+
+## 🖼️ Screenshot
+
+![Financeiro Dashboard Screenshot](screenshot.png)
+
+A preview of the Streamlit dashboard interface, showing consolidated expense metrics, category breakdowns, and interactive charts.
