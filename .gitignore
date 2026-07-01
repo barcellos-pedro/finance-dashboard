@@ -1,0 +1,40 @@
+# Arquivos de dados sensíveis
+*.csv
+*.xlsx
+*.xls
+
+# Cache e arquivos compilados Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE e editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Arquivos de configuração sensíveis
+.env
+.env.local
+config.local.py
+
+# Cache de testes
+.pytest_cache/
+.coverage
+
+# Dependências instaladas
+*.egg-info/
+dist/
+build/
