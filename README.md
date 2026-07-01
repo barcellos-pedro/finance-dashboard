@@ -1,5 +1,7 @@
 # 📊 Credit Card Expense Control — Streamlit Dashboard
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cardly.streamlit.app)
+
 This repository contains an interactive application developed in **Streamlit** for consolidating and visually analyzing credit card statements. The application replaces and extends the original script based on `openpyxl`, allowing statements to be dynamically loaded via a web interface instead of reading fixed local files.
 
 ## 🚀 Features
