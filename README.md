@@ -1,21 +1,21 @@
-# 📊 Controle de Gastos com Cartão — Dashboard Streamlit
+# 📊 Credit Card Expense Control — Streamlit Dashboard
 
-Este repositório contém uma aplicação interativa desenvolvida em **Streamlit** para consolidação e análise visual de faturas de cartão de crédito. A aplicação substitui e estende o script original baseado em `openpyxl`, permitindo carregar faturas dinamicamente via interface web em vez de ler arquivos locais fixos.
+This repository contains an interactive application developed in **Streamlit** for consolidating and visually analyzing credit card statements. The application replaces and extends the original script based on `openpyxl`, allowing statements to be dynamically loaded via a web interface instead of reading fixed local files.
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-- **Upload Dinâmico de Arquivos:** Suporte para múltiplos arquivos simultâneos (faturas `.csv` e `.xlsx`.
-- **Métricas em Tempo Real (KPIs):** Visualização instantânea do Total de Compras, Total de Pagamentos/Créditos e Saldo Líquido.
-- **Gráficos Interativos (Plotly):**
-  - **Gastos por Categoria:** Gráfico de rosca detalhando a distribuição percentual das compras.
-  - **Gastos por Cartão:** Gráfico de barras comparando o volume de gastos entre as faturas enviadas.
-- **Tabela de Lançamentos Consolidados:** Visualização tabular interativa com suporte a ordenação, busca e paginação nativa do Streamlit, com formatação monetária (R$) e de datas adequada.
-- **Categorização Automática:** Motor de inferência baseado em Expressões Regulares (RegEx) para sugerir categorias com base na descrição dos lançamentos.
+- **Dynamic File Upload:** Support for multiple simultaneous files (invoices `.csv` and `.xlsx`).
+- **Real-Time Metrics (KPIs):** Instant visualization of Total Purchases, Total Payments/Credits, and Net Balance.
+- **Interactive Charts (Plotly):**
+- **Spending by Category:** Donut chart detailing the percentage distribution of purchases.
+- **Spending by Card:** Bar chart comparing the volume of spending between submitted invoices.
+- **Consolidated Transaction Table:** Interactive tabular visualization with support for sorting, searching, and native Streamlit pagination, with appropriate monetary (R$) and date formatting.
+- **Automatic Categorization:** Regular Expression (RegEx) based inference engine to suggest categories based on transaction descriptions.
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
 - **Python 3.10+**
-- **Streamlit** (Interface de usuário e interatividade)
-- **Pandas** (Tratamento, filtragem e consolidação dos dados)
-- **Plotly Express** (Gráficos dinâmicos e interativos)
-- **Openpyxl** (Engine de leitura dos arquivos Excel)
+- **Streamlit** (User interface and interactivity)
+- **Pandas** (Data processing, filtering, and consolidation)
+- **Plotly Express** (Dynamic and interactive graphs)
+- **Openpyxl** (Excel file reading engine)
